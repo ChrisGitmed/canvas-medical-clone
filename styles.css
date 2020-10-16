@@ -3,12 +3,17 @@ a {
   font-family: "Avenir", sans-serif;
 }
 
-h2 {
+h2,
+h3 {
   font-family: "Tiempos Headline", sans-serif;
   font-style: normal;
   font-weight: 300;
 }
 
+h3 {
+  font-size: 1.6rem;
+
+}
 a:link {
   text-decoration: none;
 }
@@ -65,7 +70,7 @@ a:link {
   margin-top: 3rem;
   margin-bottom: 3rem;
   background-image: url(images/hero.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -75,7 +80,7 @@ a:link {
   padding-bottom: 3rem;
 }
 
-.hero-article > h1 {
+.hero-article > h2 {
   font-size: 2rem;
 }
 
@@ -84,13 +89,53 @@ a:link {
   padding-bottom: 2rem;
 }
 
-.clinicians-section {
+.home-clinicians-section {
   background-color: whitesmoke;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
   padding-bottom: 3rem;
+}
+
+.home-clinicians-heading {
+  padding: 3rem;
+}
+.product-hero-article {
+  padding-top: 5rem;
+  padding-left: 3rem;
+  padding-bottom: 5rem;
+}
+
+.product-hero-article > h2 {
+  font-size: 1.85rem;
+  padding-top: 3rem;
+}
+
+.product-hero-article > p {
+  line-height: 150%;
+
+  padding-bottom: 3rem;
+}
+
+.product-hero-section {
+  width: 90%;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  background-image: url(images/product/product-header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.product-care-section {
+  background-color: whitesmoke;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 4rem;
+  padding-top: 3rem;
+  align-items: center
 }
 
 .clinicians-heading {
@@ -132,6 +177,15 @@ a:link {
   padding-left: 4rem;
 }
 
+.product-population-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-bottom: 3rem;
+  padding-top: 4rem;
+}
+
 .footer-links {
   margin-right: 2rem;
 }
@@ -161,10 +215,37 @@ a:link {
   width: calc(100% / 3);
 }
 
-.col-4 {
+.col-25 {
   width: 25%;
 }
 
+.col-40 {
+  width: 40%;
+}
+
+.col-45 {
+  width: 45%;
+}
+
+.col-50 {
+  width: 50%;
+}
+
+.font-size-075rem{
+  font-size: 0.75rem;
+}
+
+.font-size-085rem{
+  font-size: 0.85rem
+}
+
+.line-height-135 {
+  line-height: 135%;
+}
+
+.line-height-150 {
+  line-height: 150%;
+}
 .justify-left {
   justify-content: flex-start;
 }
@@ -173,6 +254,18 @@ a:link {
   padding-right: 2rem;
 }
 
-.padding-bottom {
+.padding-top-1rem {
+  padding-top: 1rem;
+}
+
+.padding-bottom-1rem {
   padding-bottom: 1rem;
+}
+
+.padding-bottom-3rem{
+  padding-bottom: 3rem;
+}
+
+.blue-border {
+  border: 1px solid blue;
 }
