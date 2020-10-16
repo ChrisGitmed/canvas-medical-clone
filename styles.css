@@ -64,11 +64,11 @@ a:link {
   border-radius: 5px;
 }
 
-.hero-section {
+.home-hero-section {
   width: 90%;
   margin: auto;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
   background-image: url(images/hero.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -101,6 +101,14 @@ a:link {
 .home-clinicians-heading {
   padding: 3rem;
 }
+
+.home-learn-more-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+}
+
 .product-hero-article {
   padding-top: 5rem;
   padding-left: 3rem;
@@ -121,8 +129,8 @@ a:link {
 .product-hero-section {
   width: 90%;
   margin: auto;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
   background-image: url(images/product/product-header.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -138,6 +146,29 @@ a:link {
   align-items: center
 }
 
+.product-population-section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 3rem;
+  padding-top: 4rem;
+}
+
+.product-performance-section {
+  width: 100%;
+  background-color:whitesmoke;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center
+}
+
+.product-learn-more-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 .clinicians-heading {
   padding: 3rem;
 }
@@ -149,13 +180,6 @@ a:link {
 
 .clinicians-heading > p {
   font-size: 0.8rem;
-}
-
-.learn-more-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 3rem;
 }
 
 .contact-section {
@@ -175,15 +199,6 @@ a:link {
   display: flex;
   padding: 2rem;
   padding-left: 4rem;
-}
-
-.product-population-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: flex-start;
-  padding-bottom: 3rem;
-  padding-top: 4rem;
 }
 
 .footer-links {
@@ -246,6 +261,10 @@ a:link {
 .line-height-150 {
   line-height: 150%;
 }
+
+.line-height-175 {
+  line-height: 175%;
+}
 .justify-left {
   justify-content: flex-start;
 }
@@ -254,18 +273,22 @@ a:link {
   padding-right: 2rem;
 }
 
-.padding-top-1rem {
-  padding-top: 1rem;
+.padding-top-bottom-4rem {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .padding-bottom-1rem {
   padding-bottom: 1rem;
 }
 
-.padding-bottom-3rem{
+.padding-bottom-4rem{
   padding-bottom: 3rem;
 }
 
 .blue-border {
   border: 1px solid blue;
 }
+ .padding {
+   padding: 3rem;
+ }
